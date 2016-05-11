@@ -24,7 +24,6 @@ let PRIMARY_COLOR = 'rgb(255,102,0)'
       color:white;
       font-family: ethnocentric;
       font-size: 1.2em;
-      padding-top: 0.2em;
       padding-left: 0.8em;
     }
 
