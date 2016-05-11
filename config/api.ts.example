@@ -1,0 +1,4 @@
+export default {
+  riot: 'INSERT API KEY HERE',
+  google: 'INSERT API KEY HERE'
+}
