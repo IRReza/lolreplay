@@ -17,7 +17,7 @@ import {HomeComponent} from './home/home.component';
   {path: '/', component: HomeComponent}
 ])
 export class AppComponent {
-  constructor(private router:Router){
+  constructor(private router?:Router){
   }
 
 }
