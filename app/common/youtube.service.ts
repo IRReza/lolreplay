@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
-import API_KEYS from '../../config/api';
-import YOUTUBE from '../../config/youtube';
+import API_KEYS from '../config/api';
+import YOUTUBE from '../config/youtube';
 import {Observable} from 'rxjs';
 import{Http} from '@angular/http';
 

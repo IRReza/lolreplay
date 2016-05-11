@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import API_KEYS from '../../config/api';
+import API_KEYS from '../config/api';
 
 @Injectable()
 export class RiotService{
