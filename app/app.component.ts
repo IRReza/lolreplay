@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {ROUTER_DIRECTIVES, Routes, Router} from '@angular/router';
 import {NavComponent} from './common/nav.component';
 import {HomeComponent} from './home/home.component';
+import {SearchResultComponent} from './search/searchresult.component';
 
 @Component({
     selector: 'my-app',
@@ -14,7 +15,8 @@ import {HomeComponent} from './home/home.component';
     `
 })
 @Routes([
-  {path: '/', component: HomeComponent}
+  {path: '/', component: HomeComponent},
+  {path: '/search', component: SearchResultComponent}
 ])
 export class AppComponent {
   constructor(private router?:Router){

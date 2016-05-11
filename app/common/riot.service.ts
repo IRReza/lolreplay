@@ -29,7 +29,6 @@ export class RiotService{
     let url = this.getBaseUrl('global') + 'static-data/na/v1.2/champion?' + `&api_key=${API_KEYS.riot}`
 
     function extractData(res: Response) {
-      console.log("extracting..")
       if (res.status < 200 || res.status >= 300) {
         throw new Error('Bad response status: ' + res.status)
       }
