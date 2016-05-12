@@ -9,22 +9,32 @@ let PRIMARY_COLOR = 'rgb(255,102,0)'
       <a class ="top-nav-brand" href="/">LOL<span>REPLAY</span></a>
       <input class="top-nav-search" placeholder="Search..."/>
     </div>
+    <div class="top-padder"></div>
   `,
   styles: [`
     .top-nav{
       background-color: black;
-      height: 30px;
+      height: 45px;
       display:flex;
       justify-content: space-between;
       align-item: center;
       padding: 0.4em;
+      position: fixed;
+      top: 0;
+      z-index: 999;
+      width: 100%;
+    }
+
+    .top-padder{
+      height:45px; //same as .top-nav height
     }
 
     .top-nav-brand{
       color:white;
       font-family: ethnocentric;
-      font-size: 1.2em;
-      padding-left: 0.8em;
+      font-size: 1.8em;
+      padding-left: 1em;
+      margin-top: 0em;
     }
 
     .top-nav-brand:hover{

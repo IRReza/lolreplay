@@ -37,13 +37,14 @@ h2, h3 {
 }
 body {
   margin: 0em;
+  background-color: black;
 }
 body, input[text], button {
   color: #888;
   font-family: Cambria, Georgia;
 }
 
-a {
+a, a:hover {
   cursor: pointer;
   cursor: hand;
   text-decoration: none;

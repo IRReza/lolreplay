@@ -17,7 +17,7 @@ export class YoutubeService{
   listVideos(pageToken?:string): Observable<any>{
     let url = this.baseURL + `search?` +
     `part=snippet&` +
-    `maxResults=30&` +
+    `maxResults=32&` +
     `order=date&` +
     `channelId=${YOUTUBE.channelId}&` +
     `type=video&` +
