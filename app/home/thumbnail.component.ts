@@ -12,7 +12,19 @@ import {Component, Input} from '@angular/core'
     .thumb-img{
       width: 100%;
       height: auto;
+      -webkit-filter: grayscale(95%);
+      filter: grayscale(95%);
     }
+
+    .thumb-img:hover{
+      position: relative;
+      top: -3px;
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
+      -webkit-transition: top 2s; /* For Safari 3.1 to 6.0 */
+      transition: 0.3s;
+    }
+
   `]
 })
 export class ThumbnailComponent{
